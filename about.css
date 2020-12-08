@@ -1,0 +1,119 @@
+ * {
+	margin: 0;
+	padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(about.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} 
+.wrapper {
+	width: 1170px;
+	margin: auto;
+}
+header { 
+	 background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(food.mp4); 
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav-area li a:hover {
+	background: #fff;
+	color: #333;
+}
+
+
+.about-section{
+    /* background: url(2.jpg) no-repeat left; */
+    background-size: cover;
+    overflow: hidden;
+     padding: 10px ; 
+}
+
+.inner-container{
+    width: auto;
+     float: right; 
+     padding: 200px; 
+}
+
+.inner-container h1{
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    width: 300px;
+    color: white;
+
+}
+.inner-container p{
+    font-size: 30px;
+    color: white;
+}
+
+
+
+
+
+/* *{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic; 
+}
+ 
+.wrapper{
+	background:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0)) url(vid.mp4);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none; 
+    margin-top: 25px; 
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+     background-color: #fff;
+	 color: #000;
+} */
+
+
+
